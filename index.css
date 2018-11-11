@@ -1,0 +1,299 @@
+.grid{
+	height:480px;
+}
+.grid .left{
+	height:460px;
+	width: 190px;
+	background-color: #fefefe;
+	color: #636363;
+	font-size: 14px;
+	border-top: 1px solid #f4f4f4;
+	padding: 10px 0;
+}
+.grid .left li {
+	height: 27px;
+	width: 172px;
+	line-height: 27px;
+	text-align: left;
+	padding-left: 18px;
+}
+.grid .left li a{
+	font-size: 14px;
+	color: #626262;
+}
+.grid .left li a:hover{
+	color: #e33333;
+}
+.grid .center1 {
+	background: url(../images/1.jpg) no-repeat;
+	height: 470px;
+	width: 590px;
+	margin:10px 10px 0 10px; 
+	position: relative;
+}
+.grid .center1 div a{
+	display: block;
+	width: 24px;
+	height: 40px;
+	position: absolute;
+	color: rgba(255,255,255,0.4);
+	background-color: rgba(0,0,0,0.2);
+	font-family: 'icomoon';
+	font-size: 20px;
+	text-align: left;
+	top: 50%;
+	margin-top: -20px;
+	line-height: 40px;
+}
+.grid .center1 .r a{
+	right: 0px;
+}
+.grid .center1 ul {
+	width: 152px;
+	height: 18px;
+	position: absolute;
+	bottom: 24px;
+	left: 50px;
+}
+.grid .center1 ul li {
+	float: left;
+	margin-right: 1px;
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+}
+.grid .center1 ul li span{
+	float: left;
+	margin-top: 4px;
+	margin-left: 4px;
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	border:2px solid rgba(255,255,255,0.4);
+}
+.grid .center1 ul li:hover {
+	background-color: rgba(255,255,255,0.2);
+}
+.grid .center1 ul li:hover span{
+	border: 2px solid #fff;
+	background-color: #fff;
+}
+.grid .center1 ul .c1:hover .center1{
+	background: url(../images/1.jpg) no-repeat;
+}
+.grid .center1 ul .c2:hover .center1{
+	background: url(../images/7.jpg) no-repeat;
+}
+.grid .center1 ul .c3:hover .center1{
+	background: url(../images/8.jpg) no-repeat;
+}
+.grid .center1 ul .c4:hover .center1{
+	background: url(../images/9.jpg) no-repeat;
+}
+.grid .center1 ul .c5:hover .center1{
+	background: url(../images/10.jpg) no-repeat;
+}
+.grid .center1 ul .c6:hover .center1{
+	background: url(../images/11.jpg) no-repeat;
+}
+.grid .center1 ul .c7:hover .center1{
+	background: url(../images/5.jpg) no-repeat;
+}
+.grid .center1 ul .c8:hover .center1{
+	background: url(../images/6.jpg) no-repeat;
+}
+.grid .center2 {
+	height: 100%;
+}
+.grid .center2 div a{
+	display: block;
+	width: 190px;
+	height: 150px;
+	margin-top:10px;
+}
+.grid .center2 .images1 a{
+	background:url(../images/2.jpg)  no-repeat;
+	background-size: 190px 150px;
+}
+.grid .center2 .images2 a{
+	background:url(../images/3.jpg) no-repeat;
+	background-size: 190px 150px;
+}
+.grid .center2 .images3 a{
+	background:url(../images/4.jpg) no-repeat;
+	background-size: 190px 150px;
+}
+.grid .right {
+	height: 470px;
+	margin-top: 10px;
+	width: 190px;
+	position: relative;
+	background-color: #fff;
+	color: #666;
+	font-size: 12px;
+}
+.grid .right .register {
+	height: 65px;
+	width: 65px;
+	position: relative;
+	top: -10px;
+	left: 50%;
+	margin-left: -32.5px;
+}
+.grid .right .register img {
+	display: block;
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+	border:solid 5px #e3e1df;
+}
+.grid .right .register ul{
+	width: 	170px;
+	height: 40px;
+	margin-left: 10px;
+}
+.grid .right  .welcome li {
+	padding: 0 10px;
+	text-align: center;
+	height: 20px;
+	color: #888;
+}
+.grid .right ul li a{
+	color: #666;
+}
+.grid .right ul li a:hover{
+	color: #c81623;
+}
+.grid .right .newfish {
+	padding-left: 15px;
+	margin-top: 10px;
+	width: 175px;
+	height: 25px;
+	padding-bottom: 10px;
+}
+.grid .right .newfish a{
+	display: inline-block;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	margin: 0 5px;
+	text-align: center;
+	background-color:pink; 
+	border-radius: 13px;
+}
+.grid .right .newfish .new{
+	color: #e43f3b;
+	background-color:#fff; 
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+.grid .right .newfish .plus{
+	color: #e5d790;
+	background-color: #363634;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+.grid .right .a1 {
+	padding: 0 15px;
+}
+.grid .right .c1 {
+	border-right: solid 1px #ebeaea;
+}
+.grid .right .a2 {
+	width: 24px;
+	height: 12px;
+	position: absolute;
+	right: 10px;
+}
+.grid .right a:hover {
+	color: #c81623;
+}
+.grid .right .cuxiao{
+	padding-top: 8px;
+	height: 88px;
+}
+.grid .right .cuxiao ul{
+	line-height: 22px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+.grid .right .cuxiao ul li {
+	text-align: left;
+}
+.grid .right .sell {
+	padding-top: 14px;
+}
+.grid .right .sell {
+	padding: 0 6px;
+}
+.grid .right .sell .call{
+	color: #e01121;
+	border-bottom: 2px solid #db192b;
+}
+.grid .right .sell li{
+	width: 41px;
+	height: 14px;
+	padding-bottom: 4px;
+	display: inline-block;
+	text-align: center;
+	line-height: 14px;
+	margin-bottom: 16px;
+}
+.grid .right .sell .call a {
+	color: #e01121;
+}
+.grid .right .sold {
+	padding-left: 15px;
+}
+.grid .right .a1 a {
+	color: #666;
+}
+.grid .right .a1 a span{
+	color: #e01121;
+}
+.grid .right dl dd input{
+	width: 126px;
+	height: 20px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 13px;
+	border: 1px solid #e7e7e7;
+	border-bottom: 0;
+}
+.grid .right dl dd select{
+	width: 126px;
+	height: 20px;
+	float: left;
+	border: 1px solid #e7e7e7;
+	border-bottom: 0;
+	margin-bottom: 10px;
+}
+.grid .right dl dt{
+	float: left;
+	height: 20px;
+	width: 34px;
+	line-height: 20px;
+}
+.grid .right dl .num{
+	margin-top: 14px;
+}
+.grid .right .money {
+	color: #e01121;
+	display: block;
+	margin-bottom: 8px;
+}
+.grid .right .submit{
+	display: block;
+	width: 60px;
+	height: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 10px;
+	background-color:#e40015;
+	margin-bottom: 7px;
+}
+.gird .right .sold .rub a {
+	color:#5476db;
+	display: block;
+}
